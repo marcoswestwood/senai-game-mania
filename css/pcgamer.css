@@ -1,0 +1,296 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "roboto", sans-serif;
+}
+
+.container-grid {
+    width: 1200px;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container-grid {
+    width: 1200px;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header {
+    height: 80px;
+    background-color: black;
+}
+
+.icones-menu {
+    width: 400px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.pesquisa {
+    background: white;
+    height: 40px;
+    padding: 10px;
+    border-radius: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.search-txt {
+    border: none;
+    background: white;
+    outline: none;
+    padding: 0;
+    color: black;
+    font-size: 16px;
+    font-family: 'roboto';
+    line-height: 25px;
+    width: 0;
+    transition: 0.5s;
+}
+
+.search-btn {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pesquisa:hover > .search-txt {
+    width: 170px;
+    padding: 0 6px;
+}
+
+.entre-cadastre img:hover{
+    zoom: 110%;
+}
+
+.carrinho-compras img:hover{
+    zoom: 110%;
+}
+
+.header-menu {
+    height: 30px;
+    background-color: rgb(22, 17, 17);
+}
+
+.menu {
+    width: 1200px;
+    display: flex;
+    justify-content: space-between;  
+    align-items: center;
+}
+
+.menu a {
+    font-family: 'roboto';
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: 0.1S;
+}
+
+.menu a:hover{
+    background-color: white;
+    color: black;
+    font-weight: bold;
+}
+
+.pcgamer{
+    background-color: rgb(212, 209, 209);
+    height: 550px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+.pcgamer h2{
+    width: 390px; 
+    height: 30px;
+    display: flex;
+    font-family: 'roboto';
+    font-size: 25px;
+    position: absolute;
+    top: 20px;
+}
+
+.cards-pcgamer {
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    bottom: 10px;
+}
+
+.cards-pcgamer .card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: white;
+    border-radius: 8px;
+    max-width: 300px;
+    box-shadow: 50px 60px 60px -30px black;
+}
+
+.cards-pcgamer .card h3 {
+    text-transform: uppercase;
+}
+
+.cards-pcgamer section.card .icone {
+    width: 230px;
+    height: 230px;
+    align-items: center;
+    display: flex;
+}
+
+.cards-pcgamer .card img {
+    width: 100%;
+}
+
+.cards-pcgamer .card h3 {
+    margin: 10px 0;
+}
+
+.cards-pcgamer .card h5 {
+    font-weight: 100;
+    font-size: 105%;
+    color: rgb(224, 142, 142);
+}
+
+.cards-pcgamer .card h4 {
+    font-size: 120%;
+}
+
+.cards-pcgamer .card h6 {
+    margin-bottom: 10px;
+    font-size: 80%;
+}
+
+.cards-pcgamer .card button {
+    padding: 0.5rem 1rem;
+    text-transform: uppercase;
+    color: white;
+    font-weight: 500;
+    border-radius: 8px;
+    background: rgb(37, 218, 20);
+    border: 0;
+    cursor: pointer;
+    margin-bottom: 10px;
+    box-shadow: 15px 10px 15px -12px black;
+    transition: 0.2s;
+}
+
+.cards-pcgamer .card button:hover{
+    background-color: rgb(9, 70, 9);
+    font-weight: bold;
+}
+
+.background-footer {
+    background-color: black;
+    height: 350px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;  
+}
+
+.cadastro-receber-ofertas {
+    width: 1200px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: absolute;
+    top: 15px;
+    
+}
+
+.cadastro-ofertas-txt {
+    width: 450px;
+    height: 30px;
+    border-radius: 8px;
+    border: 0;
+}
+
+.cadastro-ofertas-btn button {
+    width: 150px;
+    height: 30px;
+    align-items: center;
+    background-color: blue;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+    border-radius: 8px;
+    border: 0;
+    transition: 0.2s;
+}
+
+.cadastro-ofertas-btn button:hover{
+    background-color: rgb(54, 7, 129);
+    font-weight: bold;
+}
+
+.footer .cadastro-receber-ofertas h3 {
+    color: white;
+    font-size: 20px; 
+}
+
+.footer .logo-rodape {
+    position: absolute;
+    top: 90px;
+    width: 1200px;
+    display: flex;
+    justify-content: center;  
+    align-items: center;
+}
+
+.redes-sociais {
+    position: absolute;
+    width: 1200px;
+    display: flex;
+    justify-content: right;
+    top: 170px;
+}
+
+.redes-sociais h4 {
+    position: absolute;
+    width: 1200px;
+    color: white;
+    display: flex;
+    justify-content: right;
+}
+
+.icones-redes-sociais {
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    width: 270px;
+    top: 40px;
+}
+
+.icones-redes-sociais img:hover{
+    filter: grayscale(1);
+}
+
+.direitos-reservados h4 {
+    color: white;
+    position: absolute;
+    width: 1200px;
+    display: flex;
+    justify-content: center;
+    bottom: 10px;
+}
